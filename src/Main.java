@@ -5,5 +5,7 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println(fullName);
+
+        System.out.println(fullName.toUpperCase());
     }
 }
